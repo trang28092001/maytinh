@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="maytinh.css">
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/2.6.0/math.min.js"></script>
+    </head>
+    <body>
+        
+        <div class="calculator">
+            
+            <div class="display">
+                <div class="result"></div>
+                <div class="txt">
+                    <span id="screen" class= "screen animated"></span>
+                    <span class= "hint"></span>
+                 </div>
+            </div>
+            <div class="math">
+                <button class= "btn operator fun" key = 'sin('>sin</button>
+                <button class= "btn operator fun" key = 'cos('>cos</button>
+                <button class= "btn operator op" key='^2'>²</button>
+                <button class= "btn back" >CE</button>
+                <button class= "btn operator fun" key = 'tan('>tan</button>
+                <button class= "btn operator fun" key = 'log10('>log</button>
+                <button class= "btn operator fun" key='sqrt('>√</button>
+                <button class= "btn operator op" key='pi' >π</button>
+                <button class= "btn operator fun" key='log(' >In</button>
+                <button class= "btn operator par" key='('>(</button>
+                <button class= "btn operator par" key=')'>)</button>
+                <button class= "btn operator op" key='+' char='+'>+</button>
+                <button class= "btn op" key='7'>7</button>
+                <button class= "btn op" key='8'>8</button>
+                <button class= "btn op" key='9'>9</button>
+                <button class= "btn operator op" key='-'>-</button>
+                <button class= "btn op" key='4'>4</button>
+                <button class= "btn op" key='5'>5</button>
+                <button class= "btn op" key='6'>6</button>
+                <button class= "btn operator op" key='*'>×</button>
+                <button class= "btn op" key='1'>1</button>
+                <button class= "btn op" key='2'>2</button>
+                <button class= "btn op" key='3'>3</button>
+                <button class= "btn operator op" key='/'>÷</button>
+                <button class = "btn op" key='0'>0</button>
+                <button class= "btn op" key='.'>.</button>
+                <button class = "btn clear" >AC</button>
+                <button class = "btn en">= </button>
+            </div>
+        </div>
+        <script src = "maytinh.js"></script>
+    </body>
+</html>
